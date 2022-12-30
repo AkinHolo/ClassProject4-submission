@@ -1,0 +1,244 @@
+.navbar{
+    /* position: sticky top;  */
+    background:local;
+    height: 10px
+}
+.container-fluid{
+    position:fixed;
+    border: 3px solid whitesmoke;
+    background: fixed;
+    background-color: white;
+}
+
+.cn{
+    color:aqua;
+    background: fixed;
+    background-size: 200px;
+}
+.nav-item{
+    list-style: none;
+    display:block;
+    padding: 20px;
+}
+.nav-i{
+    display:inline-block;
+    padding: 20px; 
+}
+.gray-color{
+    color: gray;
+}
+
+    /* section 2 */
+.logo-i{
+    display:flex;
+    justify-content: center;
+    background-size: 4px; 
+    margin-top: 2cm;
+} 
+
+    /* section 3 */
+.h1{
+    color: aqua;
+    font-family: Courier;
+    text-align: center;
+   
+}   
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 2cm;
+}
+.container-p{
+    font-size: Medium;
+    color:gray;
+    text-align: justify;
+    justify-content: center;
+    Padding: 10px;
+}
+
+    /* section 4 */
+.card-container{
+    display:flex;
+    justify-content: center;
+    /* place-content: center; */
+    /* place-items: inline; */
+    margin-top: 1cm;
+    padding: 2.5cm;
+}
+.green-card{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 450px;
+    background: local;
+    background-color:rgb(5, 116, 79);
+    place-items: center;
+    margin-right: 20mm;   
+}  
+.blue-card{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 450px;
+    background: local;
+    background-color: blue;
+    place-items: center;
+    margin-right: 20mm;   
+}
+.black-card{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 450px;
+    background: local;
+    background-color: black;
+    place-items: center;
+    margin-right: 20mm;    
+}
+.card-gra{
+    color:white;
+    font-size:x-large;
+}
+/* section 5 */
+.container-2{
+    display:flex;
+    margin-bottom: auto;
+}
+.con-p{
+    color:aqua;
+    font-family: sofia;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.nav-fl{
+    color: gray;
+    
+}
+.first-line{
+    margin-bottom: 1cm;
+    color: gray;
+
+}
+.r-p-text{
+    color: gray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size:xx-large;
+    padding: 40px;
+    
+}
+
+/* section 6 */
+.div3{
+    display: flex;
+    background: fixed;
+    background-color: rgb(179, 230, 213);
+    width: 39.6cm;
+    height: 20cm;   
+    position: static;
+}
+.h2-div{
+    font-size: x-large;
+    padding: 100px 0 50px 250px;
+   
+}
+.div3-p{
+   color:grey;
+   padding: 5px 0 50px 250px;
+   text-align: justify;
+   font-size: larger;  
+}
+
+h2{
+    color:rgb(8, 151, 103);
+    font-family: franklin gothic medium;  
+}
+.logo-ii{
+    place-items: bottom;
+    width: 700px;
+    height: 390px;
+    padding-left: 50px;;
+}
+.right-col-6{
+    flex-direction: column-reverse;
+    position: static;
+    padding-left: 100px;    
+}
+.card-white{
+    display: flex;
+}
+.c-w-h{
+    color:aquamarine;
+    text-align: center;
+}
+.box{
+    background-color: blue;
+    display: flex;
+}
+.box-f-w{
+    background-color: brown;
+}
+.fcs{
+    background-color: yellow;
+}
+
+    /* section 7 */
+.h3i{
+    color: aqua;
+    text-align:center;
+    font-family: verdana;
+    font-size: x-large;
+    margin: 2cm 0 1cm 0;
+}
+
+p{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+    margin-top: 2cm;
+}
+
+ /* section 8 */
+ .container-images{
+    position: static;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 50mm;
+
+ }
+.column{
+    column-gap: 40px;
+}
+.card{
+    position:static;
+    width: 350px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+.card-p{
+    color: grey;
+    
+}
+.images{
+    width: 350px;
+    height: 350px;
+}    
+
+
+/* section 9 */
+.far-down{
+    display:grid;
+    place-items: center;
+}
+
+    /* section 10 */
+footer{
+    text-align: center;
+    font-size: smaller;
+    font-family: tahoma;
+    color: gray;
+}
+.cgh{
+    position: top;
+    justify-content:flex-start;   
+}

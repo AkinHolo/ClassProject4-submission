@@ -1,10 +1,11 @@
-.navbar{
-    /* position: sticky top;  */
+.nav{
     background:local;
     height: 10px
 }
+
 .container-fluid{
     position:fixed;
+    z-index: 1;
     border: 3px solid whitesmoke;
     background: fixed;
     background-color: white;
@@ -28,17 +29,25 @@
     color: gray;
 }
 
-    /* section 2 */
-.logo-i{
+.logo-1{
+    width: 80px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+
+    /* section 2 (style for centered logo)*/
+.logo-2{
     display:flex;
     justify-content: center;
     background-size: 4px; 
     margin-top: 2cm;
 } 
 
-    /* section 3 */
-.h1{
-    color: aqua;
+
+    /* section 3  (style for content under centered logo)*/
+.hOne{
+    color: rgb(4, 207, 207);
     font-family: Courier;
     text-align: center;
    
@@ -56,50 +65,63 @@
     Padding: 10px;
 }
 
-    /* section 4 */
+
+    /* section 4 (style for the three cards)*/
 .card-container{
-    display:flex;
+    display: flex;
     justify-content: center;
-    /* place-content: center; */
-    /* place-items: inline; */
-    margin-top: 1cm;
-    padding: 2.5cm;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 50px;
 }
+
 .green-card{
-    display: flex;
-    justify-content: center;
-    width: 350px;
-    height: 450px;
-    background: local;
-    background-color:rgb(5, 116, 79);
-    place-items: center;
-    margin-right: 20mm;   
-}  
+    width: 460px;
+    height: 550px;
+    background-color:rgb(127, 245, 205);
+    
+}   
+
 .blue-card{
-    display: flex;
-    justify-content: center;
-    width: 350px;
-    height: 450px;
-    background: local;
+    width: 460px;
+    height: 550px;
     background-color: blue;
-    place-items: center;
-    margin-right: 20mm;   
+    
 }
+
 .black-card{
-    display: flex;
-    justify-content: center;
-    width: 350px;
-    height: 450px;
-    background: local;
+    width: 460px;
+    height: 550px;
     background-color: black;
-    place-items: center;
-    margin-right: 20mm;    
+    
 }
+
 .card-gra{
-    color:white;
-    font-size:x-large;
+    text-align: justify;
+    font-size: 3rem;
+    line-height: 2;
+    color: white;
+    margin-left: 100px;
+    margin-top: 70px;
+   
+
 }
-/* section 5 */
+
+
+.country{
+    margin-top: 100px;
+}
+
+.choose-country{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+
+
+/* section 5  (we are a global...  & it right side contents)*/
 .container-2{
     display:flex;
     margin-bottom: auto;
@@ -123,21 +145,34 @@
     color: gray;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode';
     font-size:xx-large;
-    padding: 40px;
-    
+    padding: 40px;   
 }
 
-/* section 6 */
+.log{
+    filter: grayscale(100);
+    width: 60px;
+    padding:10px;
+    padding-bottom: 30px;
+
+}
+.change{
+    color: gray;
+    font-size: 25px;
+}
+
+
+/* section 6  (the colored part on the page)*/
 .div3{
     display: flex;
     background: fixed;
     background-color: rgb(179, 230, 213);
-    width: 39.6cm;
     height: 20cm;   
     position: static;
 }
 .h2-div{
-    font-size: x-large;
+    color:rgb(33, 173, 127);
+    font-size: xx-large;
+    font-family: georgia;
     padding: 100px 0 50px 250px;
    
 }
@@ -146,6 +181,7 @@
    padding: 5px 0 50px 250px;
    text-align: justify;
    font-size: larger;  
+   position: relative;
 }
 
 h2{
@@ -158,30 +194,56 @@ h2{
     height: 390px;
     padding-left: 50px;;
 }
-.right-col-6{
-    flex-direction: column-reverse;
-    position: static;
-    padding-left: 100px;    
+
+.whites{
+    display:inline-block;
+    padding: 60px; 
+    gap: 30px;
+    padding-left: 150px;
 }
-.card-white{
-    display: flex;
-}
-.c-w-h{
-    color:aquamarine;
+.wite1{
+    background-color: white;
     text-align: center;
-}
-.box{
-    background-color: blue;
-    display: flex;
-}
-.box-f-w{
-    background-color: brown;
-}
-.fcs{
-    background-color: yellow;
+    padding: 50px;
+  
+   
 }
 
-    /* section 7 */
+.wite2{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    
+   
+}
+
+.wite3{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.wite4{
+    background-color: white;
+    text-align: center;
+    padding: 60px;
+   
+}
+
+
+.h4whites{
+    color:aquamarine;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+} 
+
+.p4whites{
+    color: gray;
+    place-items: center;
+}
+
+    /* section 7 (contents under the colored part on the page)*/
 .h3i{
     color: aqua;
     text-align:center;
@@ -197,7 +259,7 @@ p{
     margin-top: 2cm;
 }
 
- /* section 8 */
+ /* section 8  (the 8 images)*/
  .container-images{
     position: static;
     margin-top: 40px;
@@ -225,20 +287,32 @@ p{
 }    
 
 
-/* section 9 */
+/* section 9 (contents under the 8 images)*/
 .far-down{
     display:grid;
     place-items: center;
+    padding-bottom: 80px;
 }
 
-    /* section 10 */
+
+    /* section 10  (the bottom page)*/
 footer{
+    background-color: white;
+    padding-top: 50px;
     text-align: center;
-    font-size: smaller;
+    font-size: 15px;
     font-family: tahoma;
     color: gray;
+    border: 3px solid whitesmoke;
+    background-color: white;
+}
+
+.p4futer{
+    font-size: small;
 }
 .cgh{
     position: top;
     justify-content:flex-start;   
 }
+
+
